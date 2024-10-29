@@ -86,7 +86,7 @@ export default function Splash() {
   function onEndSplash() {
     setTimeout(() => {
         router.push("/(tabs)")
-    }, 100)
+    }, 900)
   }
 
   useEffect(() => {
